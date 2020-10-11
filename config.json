@@ -1,0 +1,17 @@
+{
+    "name": "cp-dash-widgets",
+    "display_name": "ContentPress Dashboard Widgets",
+    "description": "The ContentPress default dashboard widgets collection.",
+    "version": "0.1",
+    "authors": [
+        {
+            "name": "wp-kitten",
+            "url": "https://wp-kitten.github.io"
+        }
+    ],
+    "contributors": [],
+    "page_url": "https://github.com/wp-kitten/cp-dash-widgets",
+    "update_url": "http://api.contentpress.news/api/plugin/info/cp-dash-widgets",
+    "autoload": "index.php",
+    "thumbnail": "thumb.png"
+}
