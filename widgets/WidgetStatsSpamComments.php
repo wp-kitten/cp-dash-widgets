@@ -39,7 +39,7 @@ class WidgetStatsSpamComments extends AbstractWidgetBase
 
             <div class="card-body">
                 <h4 class="card-title">
-                    <?php echo apply_filters( 'contentpress/widget/title', esc_html( __( 'cpdw::m.Spam comments' ) ), __CLASS__ ); ?>
+                    <?php echo apply_filters( 'valpress/widget/title', esc_html( __( 'cpdw::m.Spam comments' ) ), __CLASS__ ); ?>
                 </h4>
                 <div class="d-flex justify-content-between">
                     <p class="text-muted">

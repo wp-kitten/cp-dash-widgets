@@ -11,7 +11,7 @@ define( 'CPDW_PLUGIN_DIR_NAME', basename( dirname( __FILE__ ) ) );
  */
 define( 'CPDW_PLUGIN_DIR_PATH', trailingslashit( wp_normalize_path( dirname( __FILE__ ) ) ) );
 
-if ( cp_is_admin() ) {
+if ( vp_is_admin() ) {
     /*
      * Load widgets
      */
@@ -19,7 +19,7 @@ if ( cp_is_admin() ) {
     require_once( CPDW_PLUGIN_DIR_PATH . 'widgets/WidgetStatsPendingComments.php' );
     require_once( CPDW_PLUGIN_DIR_PATH . 'widgets/WidgetStatsSpamComments.php' );
 
-    add_filter( 'contentpress/dashboard/widgets/register', 'cpdw_register_widgets', 20, 1 );
+    add_filter( 'valpress/dashboard/widgets/register', 'cpdw_register_widgets', 20, 1 );
 
     /**
      * Register widgets
@@ -43,7 +43,7 @@ if ( cp_is_admin() ) {
     /**
      * Register the path to the translation file that will be used depending on the current locale
      */
-    add_action( 'contentpress/app/loaded', function () {
-        cp_register_language_file( 'cpdw', path_combine( public_path( 'plugins' ), CPDW_PLUGIN_DIR_NAME, 'lang' ) );
+    add_action( 'valpress/app/loaded', function () {
+        vp_register_language_file( 'cpdw', path_combine( public_path( 'plugins' ), CPDW_PLUGIN_DIR_NAME, 'lang' ) );
     } );
 }

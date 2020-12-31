@@ -1,2 +1,2 @@
 # cp-dash-widgets
-The ContentPress default dashboard widgets collection. A [ContentPress](https://github.com/wp-kitten/contentpress) Plugin.
+The ValPress default dashboard widgets collection. A [ValPress](https://github.com/wp-kitten/valpress) Plugin.
