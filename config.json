@@ -11,7 +11,7 @@
     ],
     "contributors": [],
     "page_url": "https://github.com/wp-kitten/valpress-dash-widgets",
-    "update_url": "http://api.valpress.net/api/plugin/info/valpress-dash-widgets",
+    "update_url": "https://api.valpress.net/api/plugin/info/valpress-dash-widgets",
     "autoload": "index.php",
     "thumbnail": "thumb.png"
 }
